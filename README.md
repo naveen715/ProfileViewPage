@@ -11,6 +11,7 @@ For login the username and password both are the username recieved from https://
 
 
 ##Profile page
+For displaying items in the tabs we will use list view builders
 
-https://github.com/naveen715/ProfileViewPage/blob/master/Android%20Emulator%20-%20Pixel_4_XL_API_29_5554%202022-01-24%2019-07-18.mp4
+https://user-images.githubusercontent.com/57837087/150797578-cfeb1352-4555-4ee0-869e-2d21a115006b.mp4
 
