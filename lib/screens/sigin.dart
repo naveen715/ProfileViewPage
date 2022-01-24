@@ -29,12 +29,12 @@ class _signinState extends State<signin> {
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
-        color: Colors.black,
+        color: Colors.white,
         child: Center(
           child: SingleChildScrollView(
             child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 30),
-                color: Colors.black,
+                color: Colors.white,
                 child: Form(
                   key: _formkey,
                   child: Column(
@@ -44,7 +44,7 @@ class _signinState extends State<signin> {
                       TextFormField(
                         enableInteractiveSelection: true,
                         decoration: const InputDecoration(
-                          fillColor: Colors.grey,
+                          fillColor: Colors.white,
                           filled: true,
                           contentPadding: EdgeInsets.all(12.0),
                           enabledBorder: OutlineInputBorder(
@@ -72,7 +72,7 @@ class _signinState extends State<signin> {
                       TextFormField(
                         enableInteractiveSelection: true,
                         decoration: const InputDecoration(
-                          fillColor: Colors.grey,
+                          fillColor: Colors.white,
                           filled: true,
                           contentPadding: EdgeInsets.all(12.0),
                           enabledBorder: OutlineInputBorder(
@@ -98,7 +98,7 @@ class _signinState extends State<signin> {
                       ),
                       const SizedBox(height: 15,),
                       RaisedButton(
-                        color: Colors.blue,
+                        color: Colors.red[700],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                         child: const Text("Login", style: TextStyle(fontSize: 17.0,fontFamily: "Merriweather",color: Colors.white)),
                         onPressed: ()async {
